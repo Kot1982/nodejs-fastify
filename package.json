@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kot1982/nodejs-fastify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kot1982/nodejs-fastify/issues"
+  },
+  "homepage": "https://github.com/Kot1982/nodejs-fastify#readme",
+  "dependencies": {
+    "fastify": "^4.13.0",
+    "fastify-swagger": "^5.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
